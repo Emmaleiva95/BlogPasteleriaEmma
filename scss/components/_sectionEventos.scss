@@ -1,0 +1,60 @@
+.sectionEventos {
+    grid-area: eventos;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 50px 0;
+
+    .eventosCardContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        
+        .eventosCard {
+            width: 20%;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border: 1px dashed;
+        
+            &:hover {
+                cursor: pointer;
+                background-color: rgb(249, 178, 98);
+                transition:all 0.5s;
+                scale: 1.05;
+                border: solid 1px;
+                box-shadow: 1px 1px 3px 1px rgb(40, 39, 39);
+            }
+            span {
+                display: block;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .sectionEventos {
+        padding: 1rem;
+    
+        .eventosDescriptionContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            .eventosCardContainer {
+                .eventosCard {
+                    width: 300px;
+                }
+            }
+        }
+    
+    }
+}
+
+
+
+

@@ -1,0 +1,64 @@
+.navbarContainer {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    position:sticky ;
+    width: 100%;
+    background-color: rgb(227, 139, 41);
+    border-bottom: 1px dashed black;
+
+    nav{
+        width: 70%;
+        .menu{
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            height: 100%;
+            li{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                a {
+                    padding: 20px 0;
+                    }
+            }
+        }
+    }
+    
+    .logoContainer{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        a {
+            img {
+                width: 45px;
+                padding-left: 0.7rem;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .navbarContainer {
+        flex-direction: column;
+        position:relative ;
+        
+        .logoContainer{
+            width: 100%;
+            
+            justify-content: center;
+        }
+
+        nav{
+            width: 100%;
+    
+    
+            .menu{   
+                flex-direction: column;
+            }
+        }
+    }
+}

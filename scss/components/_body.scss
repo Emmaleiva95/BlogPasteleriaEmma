@@ -1,0 +1,14 @@
+.body{
+    background-image: url(../imagenes/fondo3.jpg);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "sobreNosotros"
+    "nuestrosPasteles"
+    "eventos"
+    "footer"
+    ;
+}

@@ -1,0 +1,20 @@
+.main {
+    grid-area: main;
+    margin: 10vh 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    p {
+        font-size: 1.3rem;
+    }
+    
+    .submit {
+        @include boton;
+    }
+    
+    .buyButtom {
+        margin-left: 80px;
+    }
+}
+
