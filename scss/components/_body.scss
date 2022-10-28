@@ -1,6 +1,7 @@
 .body{
     background-image: url(../imagenes/fondo3.jpg);
     display: grid;
+    overflow-x: hidden;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     grid-template-areas: 
