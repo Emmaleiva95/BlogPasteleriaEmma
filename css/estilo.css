@@ -174,8 +174,13 @@
 @media screen and (max-width: 700px) {
   .main {
     margin: 10vh 0vh; }
-    .main .mainInfoContainer p {
-      font-size: 1rem; } }
+    .main .mainInfoContainer {
+      padding: 0 7vw; }
+      .main .mainInfoContainer .buyButtom {
+        margin-left: 0;
+        align-self: center; }
+      .main .mainInfoContainer p {
+        font-size: 1rem; } }
 
 .section {
   grid-area: sobreNosotros;
@@ -213,7 +218,9 @@
     .section .nosotrosDescriptionContainer {
       width: 100%; }
     .section .nosotrosImgContainer {
-      width: 100%; } }
+      width: 100%; }
+      .section .nosotrosImgContainer img {
+        border-radius: 5px; } }
 
 .sectionNosotros {
   grid-area: nuestrosPasteles; }
