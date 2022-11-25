@@ -58,6 +58,7 @@
             display: flex;
             flex-direction: column;
             gap: 5vh;
+            padding: 0 5vw;
 
             h3 {
                 font-size: 1.5rem;    
@@ -96,6 +97,9 @@
         .infoContainer {
             width: 100%;
             align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 3vh;
         }
     }
     
