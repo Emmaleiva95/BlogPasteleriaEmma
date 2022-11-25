@@ -159,6 +159,9 @@
       transform: scale(1.01); }
   .main .buyButtom {
     margin-left: 80px; }
+  @media screen and (max-width: 700px) {
+    .main .main {
+      margin: 10vh 0vh; } }
 
 .section {
   grid-area: sobreNosotros;
