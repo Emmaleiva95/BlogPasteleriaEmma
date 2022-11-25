@@ -5,17 +5,27 @@
     flex-direction: column;
     gap: 20px;
 
-    p {
-        font-size: 1.3rem;
+    .mainInfoContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        padding: 0 2vw;
+
+        p {
+            font-size: 1.3rem;
+        }
+        
+        .submit {
+            @include boton;
+        }
+        
+        .buyButtom {
+            margin-left: 80px;
+        }
+
     }
+
     
-    .submit {
-        @include boton;
-    }
-    
-    .buyButtom {
-        margin-left: 80px;
-    }
 
 }
 

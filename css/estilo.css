@@ -144,21 +144,26 @@
   display: flex;
   flex-direction: column;
   gap: 20px; }
-  .main p {
-    font-size: 1.3rem; }
-  .main .submit {
-    background-color: #e38b29;
-    width: 150px;
-    height: 50px;
-    border-radius: 30px;
-    font-size: 1.1rem; }
-    .main .submit:hover {
-      background-color: #f9b262;
-      transition: all 0.5s;
-      cursor: pointer;
-      transform: scale(1.01); }
-  .main .buyButtom {
-    margin-left: 80px; }
+  .main .mainInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 0 2vw; }
+    .main .mainInfoContainer p {
+      font-size: 1.3rem; }
+    .main .mainInfoContainer .submit {
+      background-color: #e38b29;
+      width: 150px;
+      height: 50px;
+      border-radius: 30px;
+      font-size: 1.1rem; }
+      .main .mainInfoContainer .submit:hover {
+        background-color: #f9b262;
+        transition: all 0.5s;
+        cursor: pointer;
+        transform: scale(1.01); }
+    .main .mainInfoContainer .buyButtom {
+      margin-left: 80px; }
 
 @media screen and (max-width: 700px) {
   .main {
