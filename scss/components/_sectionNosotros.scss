@@ -37,7 +37,14 @@
 @media screen and (max-width: 700px) {
     .sectionNosotros {
         padding: 1rem;
+        .cardsContainer {
+            .card {
+                width: 90vw;
+            }
+        }
+    
     }
+
 }
 
 
